@@ -7,7 +7,7 @@ namespace StarBuzzApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
         }
     }
 }
