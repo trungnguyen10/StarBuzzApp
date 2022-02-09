@@ -1,11 +1,11 @@
 namespace StarBuzzLib
 {
-    public abstract class CondimentDecorator : IBeverage
+    public abstract class CondimentDecorator : Beverage
     {
-        public IBeverage Wrappee {get; set;}
+        public Beverage Wrappee { get; set; }
 
-        public abstract string GetDescription();
+        public abstract override string GetDescription();
 
-        public abstract decimal Cost();
+        public abstract override decimal Cost();
     }
 }

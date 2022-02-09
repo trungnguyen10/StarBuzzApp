@@ -1,13 +1,11 @@
 namespace StarBuzzLib
 {
-    public class Espresso : IBeverage
+    public class Espresso : Beverage
     {
-        private string description;
-
         public Espresso(string description) { this.description = description; }
 
-        public string GetDescription() { return description; }
+        public override string GetDescription() { return description; }
 
-        public decimal Cost() { return 1.99M; }
+        public override decimal Cost() { return 1.99M; }
     }
 }

@@ -2,7 +2,7 @@ namespace StarBuzzLib
 {
     public class Mocha : CondimentDecorator
     {
-        public Mocha(IBeverage beverage) { this.Wrappee = beverage; }
+        public Mocha(Beverage beverage) { this.Wrappee = beverage; }
 
         public override string GetDescription()
         {
